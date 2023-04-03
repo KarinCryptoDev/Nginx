@@ -9,17 +9,7 @@ apache 보다 훨씬 가벼운 웹 서버 중에 대표적으로 Nginx가 있다
 
 #도커 설치
 
+brew install docker
 
 #도커 오류 정리
 
-### entjeunji@ieunjiui-MacBookAir ~ % docker -v
-Docker version 20.10.23, build 7155243
-entjeunji@ieunjiui-MacBookAir ~ % docker pull nginx
-Using default tag: latest
-Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
-
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
